@@ -1,12 +1,12 @@
 ### Преподаватели
 
-{% for tutor in tutors %}
+{% for tutor in site.tutors %}
 - {{ tutor.lastname }} {{ tutor.firstname }} ({{ tutor.github }})
 {% endfor %}
 
 
 ### Студенты
 
-{% for student in students %}
+{% for student in site.students %}
 - {{ student.lastname }} {{ student.firstname }} ({{ student.github }})
 {% endfor %}
