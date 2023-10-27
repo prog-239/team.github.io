@@ -8,5 +8,6 @@
 ### Студенты
 
 {% for student in site.students %}
-- {{ student.lastname }} {{ student.firstname }} {{ "https://github.com/" | append student.github }}
+{% assign ghlink = "https://github.com/" | append: student.github %}
+- {{ student.lastname }} {{ student.firstname }} [@{{student.github}}]({{ ghlink }})
 {% endfor %}
