@@ -1,6 +1,6 @@
 # _config.yml
 theme: jekyll-theme-minimal
-title: "Кружок промышленного программирования 239!"
+title: "Кружок промышленного программирования 239"
 
 collections:
   - students
