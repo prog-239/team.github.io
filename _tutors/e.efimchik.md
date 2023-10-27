@@ -1,5 +1,5 @@
 ---
 lastname: Ефимчик
 firstname: Евгений
-github: @thejerome
+github: thejerome
 ---
