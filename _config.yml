@@ -3,7 +3,5 @@ theme: jekyll-theme-minimal
 title: "Кружок промышленного программирования 239!"
 
 collections:
-  students:
-    sort_by: lastname
-  tutors:
-    sort_by: lastname
+  - students
+  - tutors
