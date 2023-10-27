@@ -1,8 +1,8 @@
 ### Преподаватели
 
 {% for tutor in site.tutors %}
-{% assign ghlink = "https://github.com/" | append tutor.github %}
-- {{ tutor.lastname }} {{ tutor.firstname }} {{ "\[" append tutor.github append "\]\(" | append ghlink | append "\)" }}
+{% assign ghlink = "https://github.com/" | append: tutor.github %}
+- {{ tutor.lastname }} {{ tutor.firstname }} {{ "\[" append: tutor.github append: "\]\(" | append: ghlink | append: "\)" }}
 {% endfor %}
 
 
