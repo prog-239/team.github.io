@@ -1,5 +1,5 @@
 ---
 lastname: Кондратьева
 firstname: Виктория
-github: Vikt0rKo
+github: viktor-kon
 ---
